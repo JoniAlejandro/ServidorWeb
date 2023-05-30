@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Programación Web</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/Ajax.js"></script>
+	<script src="js/Index_UI.js"></script>
+	<script src="js/Index.js"></script>
+	<script src="js/constantes_cliente.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Programacion Web Avanzada</h1>
+	</header>
+	<nav>
+		<h4>Gestion de Usuarios</h4>
+	</nav>
+	<main>
+		<div class="contenedor-form">
+			<h2>Gestión de Usuarios</h2>
+			<form >
+				<input id="id" type="hidden">
+				<div class="contenedor-input">
+					<input id="nombre" type="text" name="" required="">
+					<label>Nombre</label>
+				</div>
+				<div class="contenedor-input">
+					<input id="nacionalidad" type="text" name="" required="">
+					<label>Nacionalidad</label>
+				</div>
+				<div class="contenedor-input">
+					<input id="edad" type="text" name="" required="">
+					<label>Edad</label>
+				</div>
+				<input id="data" type="hidden" name="data">
+				<!--<textarea  id="contenedor" cols="30" rows="5" readonly="true"></textarea> -->
+				
+			</form>
+			<label id="mensaje" for=""></label>
+			<select id="select" >
+				
+			</select>
+			
+		  </div>
+		<div id="contenedor-consultas">
+			<div id="enviar">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Altas	
+				</label>
+				<img src="img/anadir.png" alt="" class="icono" >
+			</div>
+			<div id="bajas">
+				<label class="btn-neon">
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Bajas
+					
+				</label>
+				<img src="img/borrar.png" alt="" class="icono">
+			</div>
+			<div id="consultaGeneral">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Consulta Gen.
+				</label>
+				<img src="img/lista.png" alt="" class="icono">
+			</div>
+			<div id="consultaNombre">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Consulta Nom.
+				</label>
+				<img src="img/consulta.png" alt="" class="icono">
+			</div>
+			<div id="cambios">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Cambio
+					
+				</label>
+				<img src="img/actualizar.png" alt="" class="icono">
+			</div>
+			<div id="anterior">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Anterior
+				</label>
+				<img src="img/anterior.png" alt="" class="icono">
+			</div>
+			<div id="siguiente">
+				<label class="btn-neon" >
+					<span id="span1"></span>
+					<span id="span2"></span>
+					<span id="span3"></span>
+					<span id="span4"></span>
+					Siguiente
+				</label>
+				<img src="img/siguiente.png" alt="" class="icono" >
+			</div>
+
+		</div>
+	</main>
+	<footer>Footer</footer>
+</body>
+</html>
